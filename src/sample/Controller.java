@@ -12,18 +12,18 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
 
-    @FXML public ImageView playButton;
-    @FXML public ImageView nextButton;
-    @FXML public ImageView backButton;
-    @FXML public ImageView songImage;
-    @FXML public ImageView volumeButton;
+    @FXML private ImageView playButton;
+    @FXML private ImageView nextButton;
+    @FXML private ImageView backButton;
+    @FXML private ImageView songImage;
+    @FXML private ImageView volumeButton;
 
-    @FXML public Label songName;
-    @FXML public Label timerMusic;
-    @FXML public Label timeOfSong;
+    @FXML private Label songName;
+    @FXML private Label timerMusic;
+    @FXML private Label timeOfSong;
 
-    @FXML public Slider musicSlider;
-    @FXML public Slider volumeSlider;
+    @FXML private Slider musicSlider;
+    @FXML private Slider volumeSlider;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
